@@ -2,11 +2,16 @@ package Optional;
 
 public class Student implements Comparable<Student> {
     private String name;
+    private int index;
     private int score;
 
-    public Student(String name, int score) {
+    public Student(String name, int score, int index) {
         this.name = name;
         this.score = score;
+        this.index =  index;
+    }
+    public int getIndex() {
+        return index;
     }
 
     public void setName(String name) {
