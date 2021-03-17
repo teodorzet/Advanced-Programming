@@ -79,8 +79,10 @@ public class Main {
         setOfSchools.stream()
                 .filter(std -> schoolPreferenceMap.get(std).contains(students[0]) && schoolPreferenceMap.get(std).get(0) == students[0])
                 .forEach(System.out::println);
+        
+        List<School> listOfSchools = Arrays.asList(schools);
 
-        Problem problem = new Problem(schoolPreferenceMap,studentPreferenceMap,listOfStudents,listOfShools);
+        Problem problem = new Problem(schoolPreferenceMap,studentPreferenceMap,listOfStudents,listOfSchools);
         Solution solution = new Solution(problem);
         solution.printSolution();
     }
