@@ -1,4 +1,4 @@
-package sample.Controller;
+package Compulsory.Controller;
 
 import javafx.application.Platform;
 import javafx.embed.swing.SwingFXUtils;
@@ -10,21 +10,12 @@ import javafx.scene.control.*;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
-import javafx.scene.image.ImageView;
-import javafx.stage.DirectoryChooser;
 import javafx.stage.FileChooser;
-import javafx.stage.Stage;
-import javafx.stage.Window;
-import sample.Main;
+import Compulsory.Main;
 
 import javax.imageio.ImageIO;
-import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.IOException;
-import java.net.URL;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Controller extends Main {
 
