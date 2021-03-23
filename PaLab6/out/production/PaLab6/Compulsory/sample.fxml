@@ -16,7 +16,7 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="662.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Compulsory.Controller.Controller">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eaeef2" height="269.0" layoutX="117.0" layoutY="116.0" stroke="BLACK" strokeType="INSIDE" width="425.0" />
       <TextField fx:id="size" layoutX="42.0" layoutY="23.0" text="10" />
